@@ -1,0 +1,56 @@
+body {
+  background-color: #efefef;
+  font-family: 'Courier New', monospace;
+}
+
+.omikuzi {
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+.omikuzi #button {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 30px auto;
+  cursor: pointer;
+  line-height: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  box-shadow: 0 10px 0 #d1483e;
+  user-select: none;
+}
+
+.omikuzi #button:hover {
+  opacity: .8;
+}
+
+.omikuzi #button:active {
+  box-shadow: 0 5px 0 #d1483e;
+  margin-top: 35px;
+}
+
+.bingo {
+  text-align: center;
+}
+
+.bingo table {
+  margin: 60px auto;
+}
+
+.bingo table th,
+.bingo table td {
+  background-color: pink;
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.bingo table th {
+  font-weight: bold;
+  font-size: 18px;
+}
